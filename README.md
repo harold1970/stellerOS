@@ -12,4 +12,4 @@ this will compile and build all the files
 
 
 # usage
-this does not work on serial. this uses the lcd panel, I suggest to upgrade the lcd to a 20x4 lcd panal,
+this does not work on serial. this uses the lcd panel, I suggest to upgrade the lcd to a 20x4 lcd panal.
