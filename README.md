@@ -6,10 +6,13 @@ run
 sh build.sh
 ```
 this will compile and build all the files
+you can find the output in the folder "_build_"
 
 # dependancys
 - cc65 toolchain
-
+- this does not work on serial. this uses the lcd panel, I suggest to upgrade the lcd to a 20x4 lcd panal.
+- ps/2 keyboard
 
 # usage
-this does not work on serial. this uses the lcd panel, I suggest to upgrade the lcd to a 20x4 lcd panal.
+... ill fill this out when i get it more working
+  
