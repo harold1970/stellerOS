@@ -1,5 +1,5 @@
 # stellerOS
-_stellerOS_ is a baisc OS for ben eaters 65c02 computer, with a little adaption it can work on any of the 65xx microprocessers.
+_stellerOS_ is a baisc OS for ben eaters 65c02 computer, with a little adaption it can work on any of the 65xx microprocessers and there respective computers.
 # building
 run
 ```

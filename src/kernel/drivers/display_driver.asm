@@ -4,11 +4,8 @@
 ;                  |_____________________________|
 ; PURPOSE: TO ALLOW THE USER TO EASALY DISPLAY CONTENT ON THE LCD
 ; LAST UPDATED: 2024-08-08
-
-
-
-
-
+; WHAT IS IN IT:
+; init_lcd, clear_screen, write_char, lcd_instruction, and write_string
 
 .org $8000 ; load into the first part of EEPROM
 
@@ -22,7 +19,7 @@ E = %10000000 ; Bit for Enable
 RW = %01000000 ; Bit for Read/Write
 RS = %00100000 ; Bit for Register Select
 
-.segment "code"
+.segment "CODE"
 
 ; ===== LCD initialization =====
 ; INPUT: NONE

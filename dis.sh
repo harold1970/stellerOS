@@ -1,0 +1,1 @@
+da65 build/kernel > kernel_dis.txt
