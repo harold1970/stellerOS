@@ -3,11 +3,9 @@
 ;                  |__WRITTEN BY: FINN HARRISON__|
 ;                  |_____________________________|
 ; PURPOSE: TO ALLOW THE USER TO EASALY DISPLAY CONTENT ON THE LCD
-; LAST UPDATED: 2024-08-08
+; LAST UPDATED: 2024-08-09
 ; WHAT IS IN IT:
 ; init_lcd, clear_screen, write_char, lcd_instruction, and write_string
-
-.org $8000 ; load into the first part of EEPROM
 
 ; Define memory-mapped I/O addresses for the LCD
 PORTA = $6001 ; Port A for the LCD
@@ -91,10 +89,10 @@ delay_loop:
 ; PURPOSE: WRITES A NULL-TERMINATED STRING TO THE SCREEN
 ; LAST UPDATED: 2024-08-06
 write_string:
-    lda $00            ; Load the address of the string (assuming it's stored in memory)
-    beq done           ; If end of string, return
-    jsr write_char     ; Write the character to the LCD
-    lda $00            ; Load the next character
-    bne write_string   ; Continue until null terminator
-done:
+    lda $00               ; Load the address of the string (assuming it's stored in memory)
+    beq write_string_done ; If end of string, return
+    jsr write_char        ; Write the character to the LCD
+    lda $00               ; Load the next character
+    bne write_string      ; Continue until null terminator
+write_string_done:
     rts
