@@ -13,6 +13,11 @@ you can find the output in the folder "_build_"
 - this does not work on serial. this uses the lcd panel, I suggest to upgrade the lcd to a 20x4 lcd panal.
 - ps/2 keyboard
 you might have to change some values to get io working
+
+# audio
+ok so i am building a basic digital to analog w/ speaker for audio. i have no way to test it. i hope it works...
+its from 0-255 for tones
+
 # usage
 ... ill fill this out when i get it more working
 

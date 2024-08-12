@@ -2,7 +2,7 @@
 .include "../drivers/display_driver.asm"
 .include "../drivers/keyboard_driver.asm"
 .include "../drivers/string_driver.asm"
-
+.include "../drivers/speaker_driver.asm"
 .segment "CODE"
 main:
     jsr init_lcd ; init the lcd, from display_driver.asm

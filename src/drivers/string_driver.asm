@@ -21,10 +21,10 @@ strlen:
 strlen_done:
     rts 
         
-; ===== STRCMP =====
+; ===== STRCMP ===== placeholder
 ; INPUT: Y, X
 ; RETURNS: AX
 ; 0: STRINGS MATCH
 ; 1: STRINGS DO NOT MATCH
 strcmp:
-    rts
+    rts 
