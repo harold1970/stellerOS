@@ -1,3 +1,4 @@
 *.o
 kernel_dis.txt
 dis.sh
+*.prg
