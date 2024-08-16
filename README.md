@@ -17,7 +17,8 @@ you might have to change some values to get io working
 # audio
 ok so i am building a basic digital to analog w/ speaker for audio. i have no way to test it. i hope it works...
 its from 0-255 for tones
-
+# drive
+agian no way to test
 # usage
 ... ill fill this out when i get it more working
 
