@@ -11,7 +11,7 @@ play_tone:
     sta SPEAKER
     rts
 ; ===== PLAY MUSIC =====
-; INPUT: THE PTR TO THE AUDIO
+; INPUT: THE PTR TO THE AUDIO IN THE AX REGISTER
 ; OUTPUT: THE AUDIO
 play_music:
     lda $00

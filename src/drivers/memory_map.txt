@@ -1,0 +1,11 @@
+io:
+    PORTA 0x6001
+    PORTB 0x6002
+    DDRB 0x6002  
+    DDRA 0x6003 
+    speaker 0x6004
+    drive 0x6005 
+    drive instruction 0x6006
+chips n shit:
+    eeprom 0x8000 - 0xffff
+    ...
